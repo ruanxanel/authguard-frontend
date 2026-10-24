@@ -74,6 +74,12 @@
     text-decoration: underline;
 }
 
+#mensagemErro {
+    color: #f87171;
+    font-size: 14px;
+    text-align: center;
+}
+
 @media (max-width: 480px) {
     .cadastro,
     .login {
