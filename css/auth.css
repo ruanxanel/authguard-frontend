@@ -1,3 +1,4 @@
+.cadastro,
 .login {
     max-width: 420px;
     margin: 60px auto;
@@ -7,16 +8,19 @@
     border-radius: 16px;
 }
 
+.cadastro h1,
 .login h1 {
     font-size: 30px;
     margin-bottom: 12px;
 }
 
+.cadastro p,
 .login p {
     color: #94a3b8;
     font-size: 15px;
 }
 
+#formCadastro,
 #formLogin {
     display: flex;
     flex-direction: column;
@@ -24,6 +28,7 @@
     margin-top: 24px;
 }
 
+#formCadastro input,
 #formLogin input {
     padding: 12px;
     background-color: #0b0b16;
@@ -34,40 +39,49 @@
     transition: border-color 0.3s ease;
 }
 
+#formCadastro input:focus,
 #formLogin input:focus {
     border-color: #7c3aed;
     outline: none;
 }
 
+#formCadastro button,
 #formLogin button {
     width: 100%;
     margin-top: 12px;
 }
 
+#formCadastro label,
 #formLogin label {
     font-size: 14px;
     font-weight: bold;
 }
 
+.cadastro > p:last-child,
 .login > p:last-child {
     text-align: center;
     margin-top: 24px;
 }
 
+.cadastro > p:last-child a,
 .login > p:last-child a {
     color: #a78bfa;
     text-decoration: none;
 }
 
+.cadastro > p:last-child a:hover,
 .login > p:last-child a:hover {
     text-decoration: underline;
 }
 
 @media (max-width: 480px) {
+    .cadastro,
     .login {
         margin: 30px 16px;
         padding: 24px;
     }
+
+    .cadastro h1,
     .login h1 {
         font-size: 26px;
     }
