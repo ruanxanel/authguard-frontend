@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AuthGuard | Autenticação Segura</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <a href="./index.html" class="logo">AuthGuard</a>
+
+        <nav class="navegacao" aria-label="Navegação principal">
+            <a href="#sobre">Sobre</a>
+            <a href="#funcionalidades">Funcionalidades</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <span class="destaques">Autenticação e Segurança</span>
+
+            <h1>Gerencie sua identidade com segurança.</h1>
+
+            <p>
+                Uma plataforma de autenticação e gerenciamento
+                de perfis, desenvolvida com Spring Boot,
+                Supabase Auth e PostgreSQL.
+            </p>
+
+            <div class="acoes">
+                <button id="btnLogin" class="botao botao-primario">
+                    Entrar
+                </button>
+
+                <button id="btnCadastro" class="botao botao-secundario">
+                    Criar conta
+                </button>
+            </div>
+        </section>
+
+        <section id="sobre" class="secao">
+            <h2>Sobre o AuthGuard</h2>
+            <p>
+                O AuthGuard permite autenticação com JWT,
+                gerenciamento de perfis e controle de acesso
+                para usuários e administradores.
+            </p>
+        </section>
+
+        <section id="funcionalidades" class="secao">
+            <h2>Funcionalidades</h2>
+
+            <div class="cards">
+                <article class="card">
+                    <h3>Autenticação</h3>
+                    <p>Login e cadastro utilizando Supabase Auth.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Meu Perfil</h3>
+                    <p>Consulte e atualize suas informações.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Administração</h3>
+                    <p>Acesso administrativo baseado em permissões.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>AuthGuard © 2026 - Projeto de Portfólio</p>
+    </footer>
+
+</body>
+</html>
