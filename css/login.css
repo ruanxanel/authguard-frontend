@@ -1,0 +1,74 @@
+.login {
+    max-width: 420px;
+    margin: 60px auto;
+    padding: 32px;
+    background-color: #17152b;
+    border: 1px solid #373052;
+    border-radius: 16px;
+}
+
+.login h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.login p {
+    color: #94a3b8;
+    font-size: 15px;
+}
+
+#formLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+#formLogin input {
+    padding: 12px;
+    background-color: #0b0b16;
+    color: #f8fafc;
+    border: 1px solid #373052;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+}
+
+#formLogin input:focus {
+    border-color: #7c3aed;
+    outline: none;
+}
+
+#formLogin button {
+    width: 100%;
+    margin-top: 12px;
+}
+
+#formLogin label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.login > p:last-child {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.login > p:last-child a {
+    color: #a78bfa;
+    text-decoration: none;
+}
+
+.login > p:last-child a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .login {
+        margin: 30px 16px;
+        padding: 24px;
+    }
+    .login h1 {
+        font-size: 26px;
+    }
+}
